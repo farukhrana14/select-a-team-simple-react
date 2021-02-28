@@ -1,0 +1,22 @@
+Card img{
+    height: 100px;
+}
+
+.player-container{
+    display: flex;
+    
+}
+
+.single-player{
+    flex-direction: row;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px gray;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+.single-player img{
+    width: 250px;
+}
