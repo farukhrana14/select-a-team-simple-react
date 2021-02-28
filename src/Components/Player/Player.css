@@ -9,9 +9,9 @@ Card img{
 
 .single-player{
     flex-direction: row;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     border-radius: 10px;
-    box-shadow: 10px 10px gray;
+    box-shadow: 10px 5px gray;
     margin: 10px;
     padding: 15px;
     width: 300px;
@@ -19,4 +19,7 @@ Card img{
 
 .single-player img{
     width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: goldenrod;
 }
