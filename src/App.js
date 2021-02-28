@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { useEffect, useState } from 'react';
+import './Components/Player/Player'
+import Player from './Components/Player/Player';
 
 function App() {
+
+const [players, setPlayers] = useState([]);
+
+useEffect(()=>{
+  fetch ('https://api.mocki.io/v1/32144364')
+  .then(res => res.json())
+  .then(data => setPlayers(data))
+  .catch(error => console.log(error))
+}, [])
+console.log(players)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      {
+        players.map(player =><Player player={player} key={player.id}></Player>)
+      }
+      
+    
     </div>
   );
 }
