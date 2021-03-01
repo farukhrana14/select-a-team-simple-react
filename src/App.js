@@ -21,7 +21,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('https://api.mocki.io/v1/e04f04cc')
+    fetch('https://api.mocki.io/v1/9c1080ce')
       .then(res => res.json())
       .then(data => setPlayers(data))
       .catch(error => console.log(error))
