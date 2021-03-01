@@ -17,7 +17,7 @@ const Player = (props) => {
     <div className='player-container' >
       <div className='single-player'>
         <Row>
-          <Col xs={4}>
+          <Col xs={6}>
             
               <CardImg top width="100%" src={img} alt="Card image cap" />
               <CardBody className="card-body">

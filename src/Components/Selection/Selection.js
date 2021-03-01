@@ -17,9 +17,10 @@ const Selection = (props) => {
             <div className='player-stats'>
                     <div className='player-stats1'>
                         <h4>Selected Players: {players.length}</h4>
-
-                        {players.map(player => <p key={player.id}>{player.name}</p>)}
-
+                    <ol>
+                        {players.map(player => <p key={player.id}><li> <span className={'name-list'} ><small>{player.name}</small></span> </li> </p>)}
+                    </ol>
+                    
                     </div>
                     <div className='player-stats1'>
                         <h4>Total Budget:</h4>

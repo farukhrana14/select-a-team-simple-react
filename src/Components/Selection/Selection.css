@@ -3,3 +3,7 @@
     width: 200px;
 }
 
+.name-list{
+    display: block;
+    line-height: 1;
+}
