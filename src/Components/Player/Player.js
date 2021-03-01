@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlusSquare, faMinusSquare} from '@fortawesome/free-solid-svg-icons'
 import './Player.css'
 import { Col, CardImg, CardBody, CardTitle, CardSubtitle, Button, Row } from 'reactstrap';
 
@@ -6,6 +8,8 @@ import { Col, CardImg, CardBody, CardTitle, CardSubtitle, Button, Row } from 're
 const Player = (props) => {
   const { allRounderRating, battingStyle, country, fee_mln_rupee, img, name } = props.player;
   const handleAddPlayer = props.handleAddPlayer;
+  // const handleRemovePlayer = props.handleRemovePlayer;
+
   
 
   return (
@@ -28,7 +32,10 @@ const Player = (props) => {
                   <li>Match Fee (Million USD): {fee_mln_rupee}</li>
                 </ul>
                 <hr />
-                <Button onClick={()=> handleAddPlayer(props.player)}>Add / Remove Player</Button> 
+                <Button className='btn' onClick={()=> handleAddPlayer(props.player)}> <FontAwesomeIcon icon={faPlusSquare}/>Add </Button>
+                <br/>
+                <br/>
+                <Button className='btn'><FontAwesomeIcon icon={faMinusSquare}/>Remove </Button>
                 
               </CardBody>
             

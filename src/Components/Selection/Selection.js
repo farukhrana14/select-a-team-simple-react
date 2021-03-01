@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Selection = (props) => {
-    const { id, fee_mln_rupee, name } = props.selectPlayer;
     const players = props.selectPlayer;
     
     let totalBudget = 0;

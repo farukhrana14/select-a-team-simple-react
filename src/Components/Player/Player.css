@@ -4,19 +4,19 @@
     
 }
 Card img{
-    height: 100px;
+    height: 70px;
     border: none !important;
 }
 
 
 .player-container{
-    margin-top: 150px;
+    margin-top: 50px;
     display: inline-flex;
-    padding-left: 15px;
+    padding-left: 300px;
 
 }
 .card-body{
-    width: 250px;
+    width: 200px;
 }
 
 .single-player{
@@ -24,21 +24,23 @@ Card img{
     border: 1px solid lightgrey;
     border-radius: 10px;
     box-shadow: 10px 5px gray;
-    margin: 10px;
-    padding: 15px;
-    width: 300px;
-    height: fit-content;
+    /* margin: 5px; */
+    padding: 10px;
+    /* width: 25px; */
+    height: 750px;
     margin-top: 150px;
 }
 
 .single-player img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: goldenrod;
 }
 
-
+.btn{
+    width:110px;
+}
 
 * {
     -webkit-box-sizing: content-box;

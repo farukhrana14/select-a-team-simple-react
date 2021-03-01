@@ -6,11 +6,11 @@
     text-align: left;
     position: fixed;
     top: 20px;
-    width: 50%;
+    width: 60%;
     margin-bottom: 100px;
     z-index:1;
     line-height: 200px;
-    margin-left: 350px;
+    margin-left: 320px;
 }
 
 .Header nav{
