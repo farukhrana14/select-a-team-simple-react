@@ -24,13 +24,14 @@
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin-right: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 
 nav a:hover {
     background-color: gray;
+    border-radius: 10px;
     text-decoration: none;
     color: white;
 }

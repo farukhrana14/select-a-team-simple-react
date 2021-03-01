@@ -11,21 +11,14 @@ function App() {
   const [selectPlayer, setSelectPlayer] = useState([]);
 
   const handleAddPlayer = (player) => {
-    
-    // while (selectPlayer.findIndex(e => e.id === player.id) >=0)
-    //   selectPlayer.splice(selectPlayer.findIndex(e => e.id === player.id),1);
-    
-    if (selectPlayer.findIndex(e => e.id === player.id) >=0){
-     // selectPlayer.splice(selectPlayer.findIndex(f => f.id === player.id),1);
-    } else{
+    if (selectPlayer.findIndex(e => e.id === player.id) >= 0) {
+      alert('Already Selected')
+      
+    } else {
       let newSelectPlayer = [...selectPlayer, player];
       setSelectPlayer(newSelectPlayer);
-  
-    } 
-      
-}
-
-  
+    }
+  }
 
   useEffect(() => {
     fetch('https://api.mocki.io/v1/e04f04cc')
@@ -33,9 +26,6 @@ function App() {
       .then(data => setPlayers(data))
       .catch(error => console.log(error))
   }, [])
-
-
-
 
   return (
 
@@ -50,7 +40,7 @@ function App() {
       </div>
 
       {
-        players.map(player => <Player player={player} handleAddPlayer={handleAddPlayer}  key={player.id}></Player>)
+        players.map(player => <Player player={player} handleAddPlayer={handleAddPlayer} key={player.id}></Player>)
       }
 
 
