@@ -15,8 +15,8 @@ const Header = () => {
                     <a href="./about">About us</a>
                     <img src={logo} alt="" />
                 </div>
-                <hr />
 
+                <h3>Select your Team!</h3>
                 
             </nav>
         </div>

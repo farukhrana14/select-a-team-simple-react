@@ -21,11 +21,11 @@ const Player = (props) => {
 
             <CardImg top width="100%" src={img} alt="Card image cap" />
             <CardBody className="card-body">
-              <CardTitle tag="h4">{name}</CardTitle>
+              <CardTitle tag="h5">{name}</CardTitle>
               <hr />
-              <CardSubtitle tag="h5" className="mb-2 text-muted"><strong>Player Information</strong></CardSubtitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted"><strong>Player Information</strong></CardSubtitle>
 
-              <ul>
+              <ul className='player-stats'>
                 <li>All Rounder Rating: {allRounderRating} </li>
                 <li>Batting Style: {battingStyle} </li>
                 <li>Country: {country}</li>

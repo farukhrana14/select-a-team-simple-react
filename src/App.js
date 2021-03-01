@@ -33,9 +33,10 @@ function App() {
       <div className='header-class'>
         <div className='header'>
           <Header></Header>
+          
         </div>
         <div className='selected'>
-          <Selection selectPlayer={selectPlayer} key={selectPlayer.id}><h1>This is Selection</h1> </Selection>
+          <Selection selectPlayer={selectPlayer} key={selectPlayer.id}></Selection>
         </div>
       </div>
 

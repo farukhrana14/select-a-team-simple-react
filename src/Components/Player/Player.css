@@ -10,9 +10,9 @@ Card img{
 
 
 .player-container{
-    margin-top: 50px;
+    margin-top: 100px;
     display: inline-flex;
-    padding-left: 300px;
+    padding-left: 327px;
 
 }
 .card-body{
@@ -26,8 +26,9 @@ Card img{
     box-shadow: 10px 5px gray;
     padding: 10px;
     width: 300px;
-    height: 750px;
-    margin-top: 150px;
+    height: 550px;
+    margin-top: 120px;
+    text-align: center;
 }
 
 .single-player img{
@@ -35,10 +36,17 @@ Card img{
     height: 200px;
     border-radius: 50%;
     background-color: goldenrod;
+    margin-left: 30px;
 }
 
 .btn{
     width:150px;
+}
+
+.player-stats{
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
 }
 
 * {
