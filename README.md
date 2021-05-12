@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Live Site Line: [https://select-a-team.netlify.app/](https://select-a-team.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
