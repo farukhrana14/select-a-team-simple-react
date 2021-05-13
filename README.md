@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Select A Team - ICC Players
 
 Live Site Line: [https://select-a-team.netlify.app/](https://select-a-team.netlify.app/)
 

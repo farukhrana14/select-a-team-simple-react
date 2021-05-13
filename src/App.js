@@ -21,10 +21,14 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('https://api.mocki.io/v1/9c1080ce')
+    fetch('https://select-icc-team.herokuapp.com/playersall')
       .then(res => res.json())
-      .then(data => setPlayers(data))
-      .catch(error => console.log(error))
+      .then(data => {
+        setPlayers(data);
+        console.log(data);
+      })
+      
+      .catch(error => console.log('Error-Log=>', error))
   }, [])
 
   return (
