@@ -1,4 +1,5 @@
 # Select A Team - ICC Players
+[![Netlify Status](https://api.netlify.com/api/v1/badges/136d77d7-02e2-4756-b4ff-30c2e151c762/deploy-status)](https://app.netlify.com/sites/select-a-team/deploys)
 
 Live Site Line: [https://select-a-team.netlify.app/](https://select-a-team.netlify.app/)
 
