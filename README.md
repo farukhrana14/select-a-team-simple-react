@@ -3,9 +3,9 @@
 
 ### Project Codes
 
-Live Site Link: [Netlify](https://select-a-team.netlify.app/)
-Server Site Link: [Heroku](https://select-icc-team.herokuapp.com/)
-Server Git Repo: [Server Git Repo](https://github.com/farukhrana14/select-a-team-simple-react-server)
-Heroku App [Heroku](https://select-icc-team.herokuapp.com)
+* Live Site Link: [Netlify](https://select-a-team.netlify.app/)
+* Server Site Link: [Heroku](https://select-icc-team.herokuapp.com/)
+* Server Git Repo: [Server Git Repo](https://github.com/farukhrana14/select-a-team-simple-react-server)
+* Heroku App [Heroku](https://select-icc-team.herokuapp.com)
 
 
